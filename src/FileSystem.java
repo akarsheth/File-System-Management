@@ -10,7 +10,7 @@ import java.util.TreeMap;
 
 class FileSystem
 {
-	static int totalFileEntry=13268,clustersize=128,totalfat=20480000/clustersize,int git=3;
+	static int totalFileEntry=13268,clustersize=128,totalfat=20480000/clustersize,int git=45;
 	static RandomAccessFile file;
 	static int sizeOfFileEntry,offFAT,sizeOfFATentry=3;
     static int offcreated=10,offmod=22,offsize=34,offpermi=37,offfirstcluster=38,offEnd=41,diskDataStartingPoint=1024000;
